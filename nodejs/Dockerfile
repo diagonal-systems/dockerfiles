@@ -1,4 +1,4 @@
-FROM node:carbon-alpine as base
+FROM node:dubnium-alpine as base
 
 COPY scripts/install-chamber.sh /tmp/install-chamber.sh
 
